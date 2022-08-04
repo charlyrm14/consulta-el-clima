@@ -1,0 +1,147 @@
+body {
+  font-family: 'Hubballi', cursive;
+  background-color: #232946;
+  font-size: 1.6rem;
+}
+header {
+  color: #fffffe;
+  padding: 1.5rem;
+}
+header h1 {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  margin:0;
+}
+
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+.two-columns {
+  display: grid;
+  gap: 4rem;
+}
+@media (min-width: 768px) {
+  .two-columns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+main {
+  margin: 4rem auto;
+  max-width: 1200px;
+}
+.container {
+  margin: 0 auto 2rem auto;
+  border-radius: .5rem;
+  background-color: #fffffe;
+  padding: 4rem;
+  -webkit-box-shadow: 0px 10px 33px -17px rgba(173,173,173,1);
+  -moz-box-shadow: 0px 10px 33px -17px rgba(173,173,173,1);
+  box-shadow: 0px 10px 33px -17px rgba(173,173,173,1);
+  width: 100%;
+}
+form {
+  width: 100%;
+}
+
+.field label {
+  display: block;
+  color: #232946;
+
+}
+.field input,
+.field select {
+  all: unset;
+  border-bottom: 1px solid #232946;
+  width: 100%;
+  padding: .5rem;
+  margin-bottom: 2rem;
+}
+
+.field select:focus{ 
+  outline: none;
+}
+
+.field input::placeholder {
+  color: #232946;
+}
+
+ button[type="submit"] {
+  background-color: #232946;
+  margin-top: 1.5rem;
+  display: block;
+  padding: 1rem;
+  color: #b8c1ec;
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  border: none;
+  border-radius: .5rem;
+  width: 104%;
+}
+
+@media (min-width: 768px) {
+   input[type="submit"]  {
+     max-width: 400px;
+  }
+}
+
+
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.weather {
+
+}
+
+.weather p {
+  text-align: center;
+}
+
+
+.temp-current {
+  margin-top: .5rem;
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mt-3 {
+  margin-top: 3rem;
+}
+
+.icon-weather {
+  margin: 0;
+  font-size: 3rem;
+}
+
+.temp-min-max {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.temp-result {
+  margin: 0;
+  color: #232946;
+}
+
+.text-alert {
+  color: #eebbc3;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid #eebbc3;
+  padding: .5rem;
+  border-radius: .5rem;
+}
+
