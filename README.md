@@ -2,7 +2,7 @@
 
 - Ingresa una ciudad
 - Selecciona un país
-- Obten el clima en base a los dats que ingresaste
+- Obten el clima en base a los datos que ingresaste
 
 -------------
 
