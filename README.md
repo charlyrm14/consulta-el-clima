@@ -1,4 +1,4 @@
-### Conultar clima
+### Consultar clima
 
 - Ingresa una ciudad
 - Selecciona un país
